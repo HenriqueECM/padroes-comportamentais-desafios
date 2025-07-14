@@ -8,8 +8,8 @@ public class Assinatura {
     }
 
     public void mostrarPreco(String nomePlano) {
-        System.out.printf("Você escolheu o plano: ", nomePlano);
-        System.out.printf("O preço do plano é: R$ %.2f", plano.calcularPreco(), " por mês");
+        System.out.printf("Você escolheu o plano: %s\n", nomePlano);
+        System.out.printf("O preço do plano é: R$ %.2f por mês\n", plano.calcularPreco());
     }
 
     public static void main(String[] args) {

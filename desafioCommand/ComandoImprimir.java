@@ -1,5 +1,3 @@
-
-
 public class ComandoImprimir implements Comando {
     private Impressora impressora;
     private String documento;
@@ -8,12 +6,13 @@ public class ComandoImprimir implements Comando {
         this.impressora = impressora;
     }
 
-    @Override
+    public void setDocumento(String documento) {
+        this.documento = documento;
+    }
     public void executar() {
         impressora.imprimir(documento);
     }
-
-    @Override
+    
     public void desfazer() {
         impressora.cancelarImpressao(documento);
     }

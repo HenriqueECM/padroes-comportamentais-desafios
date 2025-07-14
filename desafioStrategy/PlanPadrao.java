@@ -1,4 +1,4 @@
-public class PlanPadrao implements PlanStrategy{
+public class PlanPadrao implements PlanStrategy {
     public double calcularPreco() {
         double taxa = 10.9;
 
