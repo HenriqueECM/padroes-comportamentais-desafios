@@ -1,6 +1,6 @@
 package desafioObserver;
 
-public enum Categoria {
+enum Categoria {
     ESPORTE, 
     POLITICA, 
     TECNOLOGIA
