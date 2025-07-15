@@ -24,3 +24,7 @@ Cada ação (como ApagarTextoCommand, InserirTextoCommand) encapsula a lógica d
 - Agendar comandos para execução futura.
 
 - Logar operações para auditoria ou repetição automática.
+
+## 1 - Resumo da implementação (qual padrão foi utilizado e como);
+
+## 2 - Exemplo de execução (saída esperada ao rodar a main);
