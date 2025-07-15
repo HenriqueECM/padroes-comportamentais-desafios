@@ -12,7 +12,7 @@ public class Usuario implements Observer {
     @Override
     public void update(String mensagem, Categoria categoria) {
         if (categorias.contains(categoria)) {
-            System.out.println("Mensagem recebida na categoria " + categoria + ": " + mensagem);
+            System.out.println("Mensagem recebida da categoria " + categoria + ": " + mensagem);
         }
     }
 
