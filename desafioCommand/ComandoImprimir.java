@@ -1,3 +1,5 @@
+
+
 public class ComandoImprimir implements Comando {
     private Impressora impressora;
     private String documento;
@@ -12,7 +14,7 @@ public class ComandoImprimir implements Comando {
     }
 
     @Override
-    public void cancelar() {
+    public void desfazer() {
         impressora.cancelarImpressao(documento);
     }
 }

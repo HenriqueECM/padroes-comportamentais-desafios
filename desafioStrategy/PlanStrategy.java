@@ -1,0 +1,3 @@
+interface PlanStrategy {
+    double calcularPreco();
+}
