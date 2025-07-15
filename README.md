@@ -61,7 +61,7 @@ Mensagem recebida da categoria POLITICA: Nova lei foi aprovada
 
 ### 🔸 Command: Impressora com ação de desfazer
 
-### 🧩 O que faz?
+### O que faz?
 Permite encapsular comandos como objetos. Neste caso, o comando de imprimir um documento é encapsulado, podendo ser executado ou desfeito.
 
 ### Saida esperada
@@ -72,7 +72,7 @@ Cancelando impressão de: RelatórioFinal.pdf
 
 ### 🔸 Strategy: Sistema de Assinatura
  
-### 💡 O que faz?
+### O que faz?
 Permite escolher dinamicamente o tipo de plano de assinatura. Cada plano tem seu próprio algoritmo para cálculo de preço.
 
 ### Saída esperada
